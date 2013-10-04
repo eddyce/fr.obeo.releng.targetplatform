@@ -59,9 +59,7 @@
 							<url>${targetPlatform.repository.p2}</url>
 						</repository>
 					</repositories>
-					<appArgLine>-consoleLog -application
-						${targetPlatform.application.name}
-						${targetPlatform.application.args}</appArgLine>
+					<appArgLine>-consoleLog -application ${targetPlatform.application.name} ${targetPlatform.application.args}</appArgLine>
 					<!-- Set dependencies to launch the application -->
 					<dependencies>
 						<dependency>
